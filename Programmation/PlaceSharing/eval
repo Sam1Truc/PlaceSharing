@@ -1,0 +1,100 @@
+h2. Documents :
+
+* description du contexte [sur 1 point]
+*_
+=> 1/1_*
+* documents supplémentaires qui vous semblent utiles [sur 3 points]
+*_Sketchs
+=> 3/3_*
+* Note : chaque document doit être en pdf.
+
+h2. Contraintes :
+
+* Contrainte Google Map [sur 5 points]
+** Contrainte levée [sur 1 point]
+*_
+=> 1/1_*
+** Contrainte bien codée [sur 2 point]
+*_
+=> 2/2_*
+** Contrainte bien intégrée [sur 2 point]
+*_
+=> 2/2_*
+
+* Contrainte Geolocalisation [sur 5 points]
+** Contrainte levée [sur 1 point]
+*_
+=> 1/1_*
+** Contrainte bien codée [sur 2 point]
+*_
+=> 1/2_*
+** Contrainte bien intégrée [sur 2 point]
+*_
+=> 2/2_*
+
+* Contrainte Serveur [sur 5 points]
+la localisation n'est pas traité en tant que contrainte mais en tant que feature
+** Contrainte levée [sur 1 point]
+*_
+=> 1/1_*
+** Contrainte bien codée [sur 2 point]
+*_
+=> 2/2_*
+** Contrainte bien intégrée [sur 2 point]
+*_
+=> 2/2_*
+
+
+
+h2. Programmation :
+
+* Vue : [sur 6 points]
+** répartition dans l’espace (layout des vues) [sur 2 point]
+*_
+=> 2/2_*
+** utilisation des views [sur 2 point]
+*_
+=> 2/2_*
+** thèmes, styles [sur 2 point]
+*_
+=> 2/2_*
+* Modèle : [sur 6 points]
+** Véritable construction métier [sur 6 points]
+*_
+=> 4/6_*
+** Interactions avec la vue efficace [sur 2 points]
+*_
+=> 2/2_*
+* Qualité : [sur 8 points]
+** qualité objet [sur 4 point]
+*_
+=> 4/4_*
+** qualité conceptuelle [sur 4 points]
+*_
+=> 3/4_*
+
+h2. Application :
+
+* Fonctionnement de l’application [sur 3 points]
+** tests (fonctionnels et/ou unitaires) [sur 1 point]
+*_
+=> 0/1_*
+** compilation [sur 1 point]
+*_
+=> 1/1_*
+** exécution [sur 1 point]
+*_
+=> 0,5/1_*
+* Organisation : [sur 1 point]
+** utilisation du repository
+*_
+=> 1/1_*
+* Publication de l'application [sur 5 points]
+** Application publicable techniquement (apk-release + images requises par google) [sur 2 points]
+*_
+=> 2/2_*
+** Application suffisament aboutie pour être publiée [sur 3 points]
+*_
+=> 3/3_*
+
+Note finale = ((Documents + Application)*1.54 + Programmation + (Contraintes*4)/Nb contraintes)/3 = 2.18/20

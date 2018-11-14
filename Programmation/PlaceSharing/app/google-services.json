@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "119845897974",
+    "firebase_url": "https://placesharing-7c5ce.firebaseio.com",
+    "project_id": "placesharing-7c5ce",
+    "storage_bucket": "placesharing-7c5ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119845897974:android:18a5bddea9d011f1",
+        "android_client_info": {
+          "package_name": "com.placesharing.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119845897974-bc6lr5mcfn3qq9j135q627hp6rqpobr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.placesharing.app",
+            "certificate_hash": "c160daa5d1e311f7d0ba5624e301c92c8770f31a"
+          }
+        },
+        {
+          "client_id": "119845897974-lnm30sprriokfm7klae4rqmshpav67be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo0NpE-PV1K_LHTyuwKOLQUvbPCHOSkTo"
+        },
+        {
+          "current_key": "AIzaSyAak0ntc7uIhrIPhPDvqO5QFJqPd81PCgg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119845897974-lnm30sprriokfm7klae4rqmshpav67be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

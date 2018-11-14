@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">PlaceSharing</string>
+    <string name="button_txt">Ce bouton a écrit ce texte, un texte long, très long, tellement long qu\'il à agrandit la taille du textView ! C\'est vraiment incroyable !</string>
+    <string name="action_position">Ma position</string>
+    <string name="action_recherche">Rechercher...</string>
+    <string name="actionbar_name">PlaceSharing</string>
+    <string name="ma_position">Je suis aux coordonnées suivantes : Latitude : %1$d, Longitude : %2$d</string>
+    <string name="latitude">Latitude: %1$d</string>
+    <string name="longitude">Longitude: %1$d</string>
+    <string name="refresh_coords">Coordonnées actualisées !</string>
+    <string name="resume">OnResume</string>
+    <string name="error_location">La location de l\'appareil n\'est pas activée où l\'application n\'a pas les droits nécessaires pour récupérer vos coordonnées.</string>
+    <string name="drawer_open">Navigation ouverte</string>
+    <string name="drawer_close">Navigation fermée</string>
+    <string name="navigation_drawer_open">Ouvrir le volet de navigation</string>
+    <string name="navigation_drawer_close">Fermer le volet de navigation</string>
+    <string name="ajout_lieu">Ajouter un lieu</string>
+    <string name="mon_profil">Profil</string>
+    <string name="share">Partager</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="username_label">Utilisateur : </string>
+    <string name="email_label">Email : </string>
+    <string name="anciennte_label">Ancienneté : </string>
+    <string name="descriptionPP">Photo de profil</string>
+    <string name="home_page">Carte</string>
+    <string name="nav_profile">Profil</string>
+    <string name="carte">Carte</string>
+    <string name="place_name_ask">Nom pour ce lieu :</string>
+    <string name="place_desc_ask">Description du lieu :</string>
+    <string name="auteur_ask">Auteur :</string>
+    <string name="note_ask">Note :</string>
+    <string name="menu_bar_list_places">Liste des lieux</string>
+    <string name="minimum_password">6 caractères minimum</string>
+    <string name="auth_echec">Adresse mail et/ou mot de passe non reconnu. Vérifiez vos informations de connexion.</string>
+    <string name="correct_email">L\'adresse email ne semble pas correcte</string>
+    <string name="champs_vide">Le champs est vide.</string>
+    <string name="lieu_ajouté">Lieu ajouté !</string>
+    <string name="commentaire_ask">Commentaire :</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="liste_comms_ask">Commentaires sur le lieux :</string>
+    <string name="ajout_commentaire">Ajouter</string>
+    <string name="ask_forgotten_password">Mot de passe oublié ?</string>
+    <string name="forgot_password_msg">Nous avons besoin de votre adresse mail pour vous envoyer un mail contenant les intrusctions pour redéfinir un nouveau mot de passe.</string>
+    <string name="ask_email">Email</string>
+    <string name="btn_reset_password">Réinitialiser le mot de passe</string>
+    <string name="btn_back">Retour</string>
+    <string name="btn_forgot_password">Mot de passe oublié ?</string>
+    <string name="no_user">Vous n\'êtes pas connecté !</string>
+    <string name="no_place_name">Le nom du lieu n\'est pas rempli.</string>
+    <string name="no_place_desc">La description du lieu n\'est pas remplie.</string>
+    <string name="no_new_marker">Vous devez placer un marqueur sur la carte avant d\'ajouter un lieu.</string>
+    <string name="no_email">Adresse email vide!</string>
+    <string name="no_password">Mot de passe vide!</string>
+    <string name="no_verfied_email">Vous n\'avez pas valider votre compte! Vérifiez vos mails.</string>
+    <string name="tap_one_more_to_leave">Réappuyer pour quitter</string>
+    <string name="error_device_might_reboot">Désolé mais un problème est survenu lors de la recherche. Essayez de redémarrer votre appareil.</string>
+    <string name="no_result">Pas de résutlats</string>
+    <string name="no_location_try_again">La position actuelle n\'a pas pu être récupérée. Veuillez réessayer dans quelques instants...</string>
+    <string name="email_verification_sent">Un mail de validation a été envoyé. Vérifiez votre boite mail.</string>
+    <string name="error_sign_up">Problème lors de l\'inscription.</string>
+    <string name="no_place_found">Aucun lieu correspondant trouvé.</string>
+    <string name="error_location_loading">Erreur lors du chargement du lieu.</string>
+    <string name="no_comm">Vous n\'avez pas saisi de commentaire.</string>
+    <string name="comm_added">Commentaire ajouté !</string>
+    <string name="password_reinit_sent">Un email de réinitialisation vous a été envoyé !</string>
+    <string name="error_password_reinit">Erreur lors de l\'envoi de l\'email !</string>
+
+    <string-array name="menu_array">
+        <item>Accueil</item>
+        <item>Ajouter un lieu</item>
+        <item>Profil</item>
+    </string-array>
+</resources>

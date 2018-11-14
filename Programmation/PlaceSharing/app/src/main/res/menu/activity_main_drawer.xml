@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homePage"
+            android:icon="@drawable/ic_map"
+            android:title="@string/home_page"
+            />
+
+        <item
+            android:id="@+id/ajout_lieu"
+            android:icon="@drawable/ic_menu_add"
+            android:title="@string/ajout_lieu"/>
+
+        <item
+            android:id="@+id/nav_user_profile"
+            android:icon="@drawable/ic_menu_person"
+            android:title="@string/mon_profil" />
+        <item
+            android:id="@+id/deconnexion"
+            android:icon="@drawable/ic_menu_deconnxion"
+            android:title="@string/deconnexion"
+            />
+    </group>
+</menu>

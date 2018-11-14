@@ -1,0 +1,18 @@
+SharingPlaces :
+-Permettre à l'utilisateur d'enregistrer sa position gps géolocalisée en tant 
+-que lieu. Il peut lui associé une ou plusieurs photos, un nom, une description.
+-L'utilisateur dispose d'une carte avec tous les points publics et personnels.
+-(Dans un rayon donné par rapport à sa position au chargement de la carte.)
+-Chaque lieu peut avoir différents modes de partage : privé ou publique, groupe ?
+Les lieux proposés en mode "public" seront en premier lieu mis en attente 
+si l'utilisateur n'est pas encore considéré comme "de confiance".
+Il pourra devenir "de confiance" après qu'un certain nombre des lieux qu'il a 
+proposé seront acceptés.
+Des lieux "en attente" pourront êtres validés par d'autres utlisateurs 
+(au moins 2-3) avant d'être visible par tous. Les utilisateurs capables de 
+valider le lieu
+devront êtres à proximité du lieu en question pour être presque certain 
+qu'ils l'auront "vu" et donc de confiance pour être visible par tous.
+Des membres de confiances pourront aussi nommé directement des membres de confiance inscrits.
+Il y aura aussi la possibilité de signaler un lieu s'il ne correspond pas à lieu "sûr" pour le public.
+....

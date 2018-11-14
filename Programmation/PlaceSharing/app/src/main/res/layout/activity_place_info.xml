@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/place_info"
+    tools:context="placesharing.activities.PlaceInfoFragment">
+
+    <TextView
+        android:id="@+id/place_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_place_ask"
+        android:text="@string/place_desc_ask"
+        android:textStyle="bold"
+        android:layout_below="@+id/place_name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/description_place"
+        android:layout_below="@+id/description_place_ask"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_place"
+        android:text="@string/auteur_ask"
+        android:textStyle="bold"
+        android:id="@+id/author_ask"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/author_name"
+        android:layout_alignBaseline="@+id/author_ask"
+        android:layout_toRightOf="@+id/author_ask"
+        android:layout_toEndOf="@+id/author_ask"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/note"
+        android:layout_alignBaseline="@+id/author_name"
+        android:layout_alignRight="@+id/list_commentaires"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/note_ask"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/note_ask"
+        android:layout_alignBaseline="@+id/author_name"
+        android:layout_toLeftOf="@+id/note"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/liste_comms_ask"
+        android:textStyle="bold"
+        android:id="@+id/textviewListeCommentaires"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/author_ask"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/textviewListeCommentaires"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/backgroupGrey"
+        android:id="@+id/list_commentaires"
+        android:keepScreenOn="true">
+    </android.support.v7.widget.RecyclerView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/commentaire_ask"
+        android:id="@+id/textviewCommentaire"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/list_commentaires"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCommentaire"
+        android:layout_below="@+id/textviewCommentaire"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/note_ask"
+        android:textStyle="bold"
+        android:id="@+id/textviewNote"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/editTextCommentaire"/>
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/textviewNote"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ajout_commentaire"
+        android:id="@+id/buttonSendCommentaire"
+        android:layout_below="@+id/ratingBar"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
